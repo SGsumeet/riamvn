@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 public class AppTest extends TestCase {
 
-    public void WhenGivenTestcase1ThenSalesTax() {
+    public void testWhenGivenTestcase1ThenSalesTax() {
         String fileName = "src/TestFiles/test1.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -13,7 +13,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void WhenGivenTestcase1ThenSTotalPrice() {
+    public void testWhenGivenTestcase1ThenSTotalPrice() {
         String fileName = "src/TestFiles/test1.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -22,7 +22,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedTotalPrice, actualTotalPrice);
     }
 
-    public void WhenGivenTestcase2ThenSalesTax() {
+    public void testWhenGivenTestcase2ThenSalesTax() {
         String fileName = "src/TestFiles/test2.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -31,7 +31,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void WhenGivenTestcase2ThenSTotalPrice() {
+    public void testWhenGivenTestcase2ThenSTotalPrice() {
         String fileName = "src/TestFiles/test2.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -40,7 +40,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedTotalPrice, actualTotalPrice);
     }
 
-    public void WhenGivenTestcase3ThenSalesTax() {
+    public void testWhenGivenTestcase3ThenSalesTax() {
         String fileName = "src/TestFiles/test3.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -49,7 +49,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void WhenGivenTestcase3ThenSTotalPrice() {
+    public void testWhenGivenTestcase3ThenSTotalPrice() {
         String fileName = "src/TestFiles/test3.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);

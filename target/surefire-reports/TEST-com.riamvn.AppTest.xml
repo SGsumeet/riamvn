@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.riamvn.AppTest" time="0.056" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.riamvn.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\dotdot\AppData\Local\Temp\surefire2731384513484106918\surefirebooter-20230813213513834_3.jar C:\Users\dotdot\AppData\Local\Temp\surefire2731384513484106918 2023-08-13T21-35-13_624-jvmRun1 surefire-20230813213513834_1tmp surefire_0-20230813213513834_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\dotdot\AppData\Local\Temp\surefire15506081404159053432\surefirebooter-20230816143713528_3.jar C:\Users\dotdot\AppData\Local\Temp\surefire15506081404159053432 2023-08-16T14-37-13_288-jvmRun1 surefire-20230816143713528_1tmp surefire_0-20230816143713528_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\dotdot\Desktop\Desktop\RIA_MVN\riamvn\target\test-classes;C:\Users\dotdot\Desktop\Desktop\RIA_MVN\riamvn\target\classes;C:\Users\dotdot\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\dotdot\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dotdot\AppData\Local\Temp\surefire2731384513484106918\surefirebooter-20230813213513834_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dotdot\AppData\Local\Temp\surefire15506081404159053432\surefirebooter-20230816143713528_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -56,238 +56,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="test11" classname="com.riamvn.AppTest" time="0.013">
-    <system-out><![CDATA[1 book at 12.49
-Quantity : 1
-Purchased Item : book
-Is Imported : false
-Is Exempted : true
-Price : 12.49
-1 music CD at 14.99
-Quantity : 1
-Purchased Item : music CD
-Is Imported : false
-Is Exempted : false
-Price : 14.99
-1 chocolate bar at 0.85
-Quantity : 1
-Purchased Item : chocolate bar
-Is Imported : false
-Is Exempted : true
-Price : 0.85
-1 book at 12.49
-Quantity : 1
-Purchased Item : book
-Is Imported : false
-Is Exempted : true
-Price : 12.49
-1 music CD at 14.99
-Quantity : 1
-Purchased Item : music CD
-Is Imported : false
-Is Exempted : false
-Price : 14.99
-1 chocolate bar at 0.85
-Quantity : 1
-Purchased Item : chocolate bar
-Is Imported : false
-Is Exempted : true
-Price : 0.85
-]]></system-out>
-  </testcase>
-  <testcase name="test22" classname="com.riamvn.AppTest" time="0.004">
-    <system-out><![CDATA[1 imported box of chocolates at 10.00
-Quantity : 1
-Purchased Item : imported box of chocolates
-Is Imported : true
-Is Exempted : true
-Price : 10.0
-1 imported bottle of perfume at 47.50
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 47.5
-1 imported box of chocolates at 10.00
-Quantity : 1
-Purchased Item : imported box of chocolates
-Is Imported : true
-Is Exempted : true
-Price : 10.0
-1 imported bottle of perfume at 47.50
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 47.5
-]]></system-out>
-  </testcase>
-  <testcase name="test33" classname="com.riamvn.AppTest" time="0.006">
-    <system-out><![CDATA[1 imported bottle of perfume at 27.99 
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 27.99
-1 bottle of perfume at 18.99
-Quantity : 1
-Purchased Item : bottle of perfume
-Is Imported : false
-Is Exempted : false
-Price : 18.99
-1 packet of headache pills at 9.75
-Quantity : 1
-Purchased Item : packet of headache pills
-Is Imported : false
-Is Exempted : true
-Price : 9.75
-1 box of imported chocolates at 11.25
-Quantity : 1
-Purchased Item : box of imported chocolates
-Is Imported : true
-Is Exempted : true
-Price : 11.25
-1 imported bottle of perfume at 27.99 
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 27.99
-1 bottle of perfume at 18.99
-Quantity : 1
-Purchased Item : bottle of perfume
-Is Imported : false
-Is Exempted : false
-Price : 18.99
-1 packet of headache pills at 9.75
-Quantity : 1
-Purchased Item : packet of headache pills
-Is Imported : false
-Is Exempted : true
-Price : 9.75
-1 box of imported chocolates at 11.25
-Quantity : 1
-Purchased Item : box of imported chocolates
-Is Imported : true
-Is Exempted : true
-Price : 11.25
-]]></system-out>
-  </testcase>
-  <testcase name="test1" classname="com.riamvn.AppTest" time="0.004">
-    <system-out><![CDATA[1 book at 12.49
-Quantity : 1
-Purchased Item : book
-Is Imported : false
-Is Exempted : true
-Price : 12.49
-1 music CD at 14.99
-Quantity : 1
-Purchased Item : music CD
-Is Imported : false
-Is Exempted : false
-Price : 14.99
-1 chocolate bar at 0.85
-Quantity : 1
-Purchased Item : chocolate bar
-Is Imported : false
-Is Exempted : true
-Price : 0.85
-1 book at 12.49
-Quantity : 1
-Purchased Item : book
-Is Imported : false
-Is Exempted : true
-Price : 12.49
-1 music CD at 14.99
-Quantity : 1
-Purchased Item : music CD
-Is Imported : false
-Is Exempted : false
-Price : 14.99
-1 chocolate bar at 0.85
-Quantity : 1
-Purchased Item : chocolate bar
-Is Imported : false
-Is Exempted : true
-Price : 0.85
-]]></system-out>
-  </testcase>
-  <testcase name="test2" classname="com.riamvn.AppTest" time="0.002">
-    <system-out><![CDATA[1 imported box of chocolates at 10.00
-Quantity : 1
-Purchased Item : imported box of chocolates
-Is Imported : true
-Is Exempted : true
-Price : 10.0
-1 imported bottle of perfume at 47.50
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 47.5
-1 imported box of chocolates at 10.00
-Quantity : 1
-Purchased Item : imported box of chocolates
-Is Imported : true
-Is Exempted : true
-Price : 10.0
-1 imported bottle of perfume at 47.50
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 47.5
-]]></system-out>
-  </testcase>
-  <testcase name="test3" classname="com.riamvn.AppTest" time="0.005">
-    <system-out><![CDATA[1 imported bottle of perfume at 27.99 
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 27.99
-1 bottle of perfume at 18.99
-Quantity : 1
-Purchased Item : bottle of perfume
-Is Imported : false
-Is Exempted : false
-Price : 18.99
-1 packet of headache pills at 9.75
-Quantity : 1
-Purchased Item : packet of headache pills
-Is Imported : false
-Is Exempted : true
-Price : 9.75
-1 box of imported chocolates at 11.25
-Quantity : 1
-Purchased Item : box of imported chocolates
-Is Imported : true
-Is Exempted : true
-Price : 11.25
-1 imported bottle of perfume at 27.99 
-Quantity : 1
-Purchased Item : imported bottle of perfume
-Is Imported : true
-Is Exempted : false
-Price : 27.99
-1 bottle of perfume at 18.99
-Quantity : 1
-Purchased Item : bottle of perfume
-Is Imported : false
-Is Exempted : false
-Price : 18.99
-1 packet of headache pills at 9.75
-Quantity : 1
-Purchased Item : packet of headache pills
-Is Imported : false
-Is Exempted : true
-Price : 9.75
-1 box of imported chocolates at 11.25
-Quantity : 1
-Purchased Item : box of imported chocolates
-Is Imported : true
-Is Exempted : true
-Price : 11.25
-]]></system-out>
+  <testcase name="warning" classname="junit.framework.TestSuite$1" time="0.004">
+    <failure message="No tests found in com.riamvn.AppTest" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: No tests found in com.riamvn.AppTest
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.TestCase.fail(TestCase.java:223)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:96)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:377)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:284)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:248)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:167)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
   </testcase>
 </testsuite>

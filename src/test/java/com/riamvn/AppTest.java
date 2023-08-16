@@ -1,11 +1,10 @@
 package com.riamvn;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
 
 public class AppTest extends TestCase {
 
-    public void test1() {
+    public void WhenGivenTestcase1ThenSalesTax() {
         String fileName = "src/TestFiles/test1.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -14,7 +13,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void test11() {
+    public void WhenGivenTestcase1ThenSTotalPrice() {
         String fileName = "src/TestFiles/test1.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -23,7 +22,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedTotalPrice, actualTotalPrice);
     }
 
-    public void test2() {
+    public void WhenGivenTestcase2ThenSalesTax() {
         String fileName = "src/TestFiles/test2.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -32,7 +31,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void test22() {
+    public void WhenGivenTestcase2ThenSTotalPrice() {
         String fileName = "src/TestFiles/test2.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -41,7 +40,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedTotalPrice, actualTotalPrice);
     }
 
-    public void test3() {
+    public void WhenGivenTestcase3ThenSalesTax() {
         String fileName = "src/TestFiles/test3.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
@@ -50,7 +49,7 @@ public class AppTest extends TestCase {
         assertEquals("correct tax amount shown", expectedSalesTax, actualSalesTax);
     }
 
-    public void test33() {
+    public void WhenGivenTestcase3ThenSTotalPrice() {
         String fileName = "src/TestFiles/test3.txt";
         TaxCalculator tx = new TaxCalculator(fileName);
         tx.getOrders(fileName);
